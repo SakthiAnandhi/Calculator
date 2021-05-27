@@ -1,0 +1,123 @@
+html {
+    background-image: url(pic.jpg);
+}
+
+body {
+    min-width: 280;
+}
+.main_container {
+    box-sizing: border-box;
+    width: 40%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    /* center the content */
+    margin: 8% 25%;
+    user-select: none;
+}
+
+.body_calc {
+    /* border: 2px solid red; */
+    background-color: rgba(255, 248, 220, 0.432);
+    border: 2px solid black;
+    width: 98%;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.2%;
+    vertical-align: middle;
+    transform: translate(0.05%,1%);
+}
+
+.inputdiv {
+    /* border: 1px solid green; */
+    margin-top: 5px;
+}
+
+#input {
+    background-color: rgba(236, 225, 181, 0.521);
+    border: solid black;
+    border-radius: 0%;
+    text-align: right;
+    width: 98%;
+    height: 50px;
+    font-size: 2rem;
+    margin-left: 6.5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.key_holder {
+    /* border: 2px solid blue; */
+    border: 2px solid black;
+    width: 98%;
+    height: 300px;
+    margin: 8px 4.5px;
+}
+
+.number_holder {
+    /* border: solid hotpink; */
+    /* border: solid black; */
+    height: 288px;
+    width: 55%;
+    display: inline-block;
+    margin-left: 6px;
+    margin-top: 6px;
+
+}
+
+#table {
+    /* border: 1px solid rgb(197, 147, 123); */
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    /* border-collapse: collapse; */    
+}
+
+.number {
+    /* border: solid rebeccapurple; */
+    border: solid black;
+    background-color: rgba(251, 236, 212, 0.479);
+
+    width: 22%;
+    height: 25%;
+    border-radius: 20px;
+    /* border-style: hidden; */
+}
+.number:hover {
+    background-color: rgb(215, 236, 129);
+    font-size:3rem;
+    cursor: pointer;
+}
+.number:active {
+    background-color: rgba(215, 226, 163, 0.87);
+}
+
+.operator_holder {
+    /* border: solid mediumturquoise; */
+    /* border: solid black; */
+    height: 288px;
+    width: 41%;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.operator {
+    /* border: solid rebeccapurple; */
+    box-sizing: border-box;
+    border: solid black;
+    background-color: rgba(251, 236, 212, 0.479);
+    width: 50%;
+    height: 20%;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.operator:hover {
+    background-color: rgb(215, 236, 129);
+    font-size: 2.55rem;
+    cursor: pointer;
+}
+.operator:active {
+    background-color: rgba(215, 226, 163, 0.664);
+}

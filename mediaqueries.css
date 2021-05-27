@@ -1,0 +1,221 @@
+@media only screen and (max-width:480px) {
+    .main_container {
+        width: 70%;
+        margin: 10% 5%;
+    }
+    .body_calc {
+        height: 220px;
+    }
+    .inputdiv {
+        margin-top: 2px;
+        width: 100%;
+        /* border: 0.5px solid red; */
+    }
+    #input {
+        font-size: 1.2rem;
+        border: 0.5px solid black;
+        margin: 0%;
+        width: 100%;
+    }
+    #table {
+        font-size: 0.7rem;
+    }
+    .operator {
+        font-size: 0.7rem;
+    }
+    .key_holder {
+        margin: 0%;
+        height: 160px;
+    }
+    .operator_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .operator:hover {
+        font-size: 0.9rem;
+    }
+    .number_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .number:hover {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .main_container {
+        width: 70%;
+        margin: 8% 8%;
+        margin-left: 4%;
+    }
+    .body_calc {
+        height: 220px;
+    }
+    .inputdiv {
+        margin-top: 2px;
+        width: 100%;
+    }
+    #input {
+        font-size: 1.2rem;
+        border: 0.5px solid black;
+        margin: 0%;
+        width: 100%;
+    }
+    #table {
+        font-size: 0.7rem;
+    }
+    .operator {
+        font-size: 0.7rem;
+    }
+    .key_holder {
+        margin: 0%;
+        height: 160px;
+    }
+    .operator_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .operator:hover {
+        font-size: 0.7rem;
+    }
+    .number_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .number:hover {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .main_container {
+        width: 70%;
+        margin: 4% 4%;
+        margin-left: 4%;
+    }
+    .body_calc {
+        height: 220px;
+    }
+    .inputdiv {
+        margin-top: 2px;
+        width: 100%;
+    }
+    #input {
+        font-size: 1.2rem;
+        border: 0.5px solid black;
+        margin: 0%;
+        width: 100%;
+    }
+    #table {
+        font-size: 0.9rem;
+    }
+    .operator {
+        font-size: 0.9rem;
+    }
+    .key_holder {
+        margin: 0%;
+        height: 160px;
+    }
+    .operator_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .operator:hover {
+        font-size: 0.9rem;
+    }
+    .number_holder {
+        margin: 0%;
+        height: 150px;
+    }
+    .number:hover {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .main_container {
+        box-sizing: border-box;
+        width: 80%;
+        height: 380px;
+        margin: 8% 10%;
+        /* border: solid red; */
+    }
+    .body_calc {
+        box-sizing: border-box;
+        height: 380px;
+        width: 100%;
+        border: 4px solid black;
+
+    }
+    .inputdiv {
+        margin-top: 2px;
+        width: 100%;
+        height: 15%;
+    }
+    #input {
+        font-size: 1.2rem;
+        border: 0.5px solid black;
+        margin: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    #table {
+        font-size: 1.2rem;
+    }
+    .operator {
+        font-size: 1.2rem;
+    }
+    .key_holder {
+        border: 4px solid blue;
+        margin: 0%;
+        height: 80%;
+        padding: 0%;
+    }
+    .operator_holder {
+        /* border: 4px solid red; */
+        margin: 0%;
+        /* height: 270px; */
+        height: 100%;
+    }
+    .operator:hover {
+        font-size: 0.9rem;
+    }
+    .number_holder {
+        margin: 0%;
+        /* height: 270px; */
+        height: 100%;
+    }
+    .number:hover {
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .main_container {
+        box-sizing: border-box;
+        width: 80%;
+        height: 380px;
+        margin: 8% 10%;
+        /* border: solid red; */
+    }
+    /* .body_calc {
+        height: 220px;
+    } */
+    .inputdiv {
+        margin-top: 2px;
+        width: 100%;
+    }
+    .key_holder {
+        /* border: 2px solid blue; */
+        border: 2px solid black;
+        width: 98%;
+        height: 300px;
+        margin: 8px 1.5px;
+    }
+    #input {
+        font-size: 2rem;
+        border: 0.5px solid black;
+        margin: 0%;
+        width: 100%;
+    }
+}
