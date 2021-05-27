@@ -248,7 +248,7 @@ function calculate() {
     }
     // console.log(arr)
     if (flag == true)
-        ele.value = sum,8
+        ele.value = sum
     else {
         ele.value = ""
         document.getElementById("input").placeholder = "invalid input";
