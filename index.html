@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styleCalc.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<!-- <body onresize="windowSize()"> -->
+<body>
+    <div class="main_container">
+        <div class="body_calc">
+            <div class="inputdiv">
+                <input type="text" placeholder="0" id="input" readonly="readonly" inputmode='none'>
+            </div>
+
+            <div class="key_holder">
+
+                <div class="number_holder">
+                    <table id="table">
+                        <th\r>
+                            <td class="number" id="nine" onclick="display(9)">
+                                9
+                            </td>
+                            <td class="number" id="eight" onclick="display(8)">
+                                8
+                            </td>
+                            <td class="number" id="seven" onclick="display(7)">
+                                7
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="number" id="six" onclick="display(6)">
+                                6
+                            </td>
+                            <td class="number" id="five" onclick="display(5)">
+                                5
+                            </td>
+                            <td class="number" id="four" onclick="display(4)">
+                                4
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="number" id="three" onclick="display(3)">
+                                3
+                            </td>
+                            <td class="number" id="two" onclick="display(2)">
+                                2
+                            </td>
+                            <td class="number" id="one" onclick="display(1)">
+                                1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="number" id="zero" onclick="display(0)">
+                                0
+                            </td>
+                            <td class="number"  onclick="display('.')">
+                                .
+                            </td>
+                            <td class="number"  onclick="calculate()">
+                                =
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="operator_holder">
+                    <table id="table">
+                        <tr>
+                            <td class="operator" onclick="display('back')">
+                                &#8592;
+                            </td>
+                            <td class="operator" onclick="clearInput()" rowspan="2">
+                                C
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="operator" id="plus" onclick="display('+')">
+                                +
+                            </td>
+                            <!-- <td class="operator" onclick="display('^')">
+                                ^
+                            </td> -->
+                        </tr>
+                        <tr>
+                            <td class="operator" onclick="display('-')">
+                                -
+                            </td>
+                            <td class="operator" onclick="display('&#8730')">
+                                &#8730
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="operator" onclick="display('*')">
+                                *
+                            </td>
+                            <td class="operator" onclick="display('!')">
+                                !
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="operator" onclick="display('/')">
+                                /
+                            </td>
+                            <td class="operator" onclick="display('^')">
+                                ^
+                            </td>
+                            <!-- <td class="operator" onclick="display('(')">
+                                ()
+                            </td> -->
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>  
+</body>
+
+<script src="Calculate.js"></script>
+</html>
